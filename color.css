@@ -1,0 +1,144 @@
+.color_content_container {
+    display: none;
+    justify-content: center;
+    /* height: 83vh; */
+    margin-bottom: 258px;
+}
+
+.color_container {
+    border: 1px solid #cdcecf;
+    width: 80%;
+    margin: 24px;
+}
+
+.color_heading {
+    display: flex;
+    background-color: #f8f8f9;
+    border-bottom: 1px solid #cdcecf;
+    padding: 10px;
+}
+
+.color_heading img {
+    height: 20px;
+    padding: 0px 10px;
+}
+
+.diff_colors {
+    display: flex;
+    background-color: #fff;
+    flex-wrap: wrap;
+    padding: 14px;
+}
+
+.each_color {
+    height: 150px;
+    width: 150px;
+    border-radius: 7px;
+}
+
+.color_name {
+    padding: 15px 0px;
+    font-family: "Mukta", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.each_color_container {
+    padding: 0px 30px;
+}
+
+.typography_content_container {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading_container,
+.heading_availability_container,
+.display_content_container,
+.inline_container {
+    border: 1px solid #d3d4d4;
+    border-radius: 7px;
+    width: 80%;
+    margin: 24px;
+}
+
+.heading_table {
+    padding: 20px;
+}
+
+.heading_header,
+.availability_heading,
+.display_heading {
+    border-bottom: 1px solid #d3d4d4;
+    padding: 10px;
+}
+
+.heading_contents p,
+.availablity_contents p,
+.display_contents p {
+    padding: 20px 10px;
+    color: #303640
+}
+
+.heading_table th,
+.heading_table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.heading_table th:first-child {
+    padding-right: 160px;
+}
+
+.heading_table td {
+    padding: 20px 10px;
+}
+
+.heading_table td:first-child,
+.availablity_contents p span {
+    font-family: "Mukta", sans-serif;
+    font-weight: 400;
+    color: #d63384;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+}
+
+.availablity_contents div {
+    padding: 11px;
+}
+
+.display_table td {
+    border-bottom: 1px solid #ddd;
+    line-height: 1.2;
+    padding: 10px;
+
+}
+
+.d1 {
+    font-size: 5rem;
+}
+
+.d2 {
+    font-size: 4.5rem;
+}
+
+.d3 {
+    font-size: 4rem;
+}
+
+.d4 {
+    font-size: 3.5rem;
+}
+
+.inline_contents p {
+    padding: 10px;
+}
+
+.des_table th,
+.des_table td {
+    text-align: left;
+    padding: 8px;
+}

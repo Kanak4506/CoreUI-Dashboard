@@ -1,0 +1,1078 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="sales.css">
+    <link rel="stylesheet" href="color.css">
+    <link rel="stylesheet" href="media_quieries.css">
+</head>
+
+<body>
+
+    <div class="main_container">
+        <div class="dashboard">
+            <div class="logo">
+                <img src="assets/icons/logo.svg" alt="">
+            </div>
+            <div class="dashboard_item_container">
+                <div class="dashboard_item">
+                    <div class="dash_logo"><img src="assets/icons/dashboard.svg" alt=""></div>
+                    <span>Dashboard</span>
+                </div>
+                <div class="theme_container">
+                    <span>THEME</span>
+                    <div id="color"><img src="assets/icons/colors.svg" alt=""> Colors</div>
+                    <div id="typography"><img src="assets/icons/pencil.svg" alt=""> Typography</div>
+
+                </div>
+                <div class="components_container">
+                    <span>COMPONENTS</span>
+                    <div class="comp_item" id="base">
+                        <div class="left"><img src="assets/icons/base.svg" alt=""> Base</div>
+                        <div id="base_btn"><img src="assets/icons/down.svg" alt=""></div>
+                    </div>
+                    <ul class="base_items hide">
+                        <li>Accordian</li>
+                        <li>Breadcrumbs</li>
+                        <li>Cards</li>
+                        <li>Carousels</li>
+                        <li>Collapses</li>
+                        <li>List Groups</li>
+                        <li>Navs & Tabs</li>
+                        <li>Paginations</li>
+                        <li>Progress</li>
+                        <li>Spinners</li>
+                    </ul>
+                    <div class="comp_item" id="button">
+                        <div class="left"><img src="assets/icons/button.svg" alt=""> Buttons</div>
+                        <div id="buttons_btn"><img src="assets/icons/down.svg" alt=""></div>
+                    </div>
+                    <ul class="buttons_items hide">
+                        <li>Buttons</li>
+                        <li>Button Groups</li>
+                        <li>Dropdowns</li>
+                    </ul>
+                    <div class="comp_item" id="form">
+                        <div class="left"><img src="assets/icons/form.svg" alt=""> Forms</div>
+                        <div id="form_btn"><img src="assets/icons/down.svg" alt=""></div>
+                    </div>
+                    <ul class="form_items hide">
+                        <li>Form Control</li>
+                        <li>Select</li>
+                        <li>Checks & Radios</li>
+                        <li>Range</li>
+                        <li>Input Group</li>
+                        <li>Floating Labels</li>
+                        <li>Layout</li>
+                        <li>Validation</li>
+                    </ul>
+                    <div class="comp_item" id="charts">
+                        <div class="left"><img src="assets/icons/chart.svg" alt=""> Charts</div>
+                    </div>
+                    <div class="comp_item" id="icons">
+                        <div class="left"><img src="assets/icons/icons.svg" alt=""> Icons</div>
+                        <div id="icon_btn"><img src="assets/icons/down.svg" alt=""></div>
+                    </div>
+                    <ul class="icon_items hide">
+                        <li>CoreUI Icons</li>
+                        <li>Brands</li>
+                        <li>Flags</li>
+                    </ul>
+                    <div class="comp_item" id="notifications">
+                        <div class="left"><img src="assets/icons/notif.svg" alt=""> Notifications</div>
+                        <div id="notification_btn"><img src="assets/icons/down.svg" alt=""></div>
+                    </div>
+                    <ul class="notif_items hide">
+                        <li>Alerts</li>
+                        <li>Badges</li>
+                        <li>Modals</li>
+                        <li>Toasts</li>
+                    </ul>
+                    <div class="comp_item" id="widget">
+                        <div class="left"><img src="assets/icons/widgets.svg" alt=""> Widgets</div>
+                        <div><img src="assets/icons/new.svg" alt=""></div>
+                    </div>
+                </div>
+                <div class="extras_container">
+                    <span>EXTRAS</span>
+                    <div class="extra_item" id="page">
+                        <div class="left"><img src="assets/icons/icons.svg" alt=""> Pages</div>
+                        <div id="page_btn"><img src="assets/icons/down.svg" alt=""></div>
+                    </div>
+                    <ul class="pages_items hide">
+                        <li>Login</li>
+                        <li>Register</li>
+                        <li>Error 404</li>
+                        <li>Error 500</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="exit"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 16 16"><g fill="#64686f" fill-rule="evenodd"><path d="M6 12.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-8a.5.5 0 0 0-.5.5v2a.5.5 0 0 1-1 0v-2A1.5 1.5 0 0 1 6.5 2h8A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-8A1.5 1.5 0 0 1 5 12.5v-2a.5.5 0 0 1 1 0z"/><path d="M.146 8.354a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L1.707 7.5H10.5a.5.5 0 0 1 0 1H1.707l2.147 2.146a.5.5 0 0 1-.708.708z"/></g></svg></div>
+
+        </div>
+
+
+        <div class="content_container">
+            <header class="light_black">
+                <div class="nav">
+                    <ul class="left">
+                        <li id="menu_icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22px" height="22px" viewBox="0 0 24 24">
+                                <path fill="#6a6e76" fill-rule="evenodd"
+                                    d="M19.75 12a.75.75 0 0 0-.75-.75H5a.75.75 0 0 0 0 1.5h14a.75.75 0 0 0 .75-.75m0-5a.75.75 0 0 0-.75-.75H5a.75.75 0 0 0 0 1.5h14a.75.75 0 0 0 .75-.75m0 10a.75.75 0 0 0-.75-.75H5a.75.75 0 0 0 0 1.5h14a.75.75 0 0 0 .75-.75"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </li>
+                        <li>Dashboard</li>
+                        <li>Users</li>
+                        <li>Settings</li>
+                    </ul>
+                    <div class="right">
+                        <div class="right_icons">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 256 256">
+                                    <path fill="#70797f"
+                                        d="M221.8 175.94c-5.55-9.56-13.8-36.61-13.8-71.94a80 80 0 1 0-160 0c0 35.34-8.26 62.38-13.81 71.94A16 16 0 0 0 48 200h40.81a40 40 0 0 0 78.38 0H208a16 16 0 0 0 13.8-24.06M128 216a24 24 0 0 1-22.62-16h45.24A24 24 0 0 1 128 216m-80-32c7.7-13.24 16-43.92 16-80a64 64 0 1 1 128 0c0 36.05 8.28 66.73 16 80Z" />
+                                </svg>
+                            </span>
+
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 56 56">
+                                    <path fill="#70797f" fill-rule="evenodd"
+                                        d="M10 36a3 3 0 1 1 0 6a3 3 0 0 1 0-6m35.998 1c1.106 0 2.002.888 2.002 2c0 1.105-.89 2-2.002 2H18.002A1.996 1.996 0 0 1 16 39c0-1.105.89-2 2.002-2zM10 26a3 3 0 1 1 0 6a3 3 0 0 1 0-6m35.998 1c1.106 0 2.002.888 2.002 2c0 1.105-.89 2-2.002 2H18.002A1.996 1.996 0 0 1 16 29c0-1.105.89-2 2.002-2zM10 16a3 3 0 1 1 0 6a3 3 0 0 1 0-6m35.998 1c1.106 0 2.002.888 2.002 2c0 1.105-.89 2-2.002 2H18.002A1.996 1.996 0 0 1 16 19c0-1.105.89-2 2.002-2z" />
+                                </svg>
+                            </span>
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 512 512">
+                                    <path fill="#70797f"
+                                        d="M274.6 25.623a32.01 32.01 0 0 0-37.2 0L16 183.766V496h480V183.766ZM464 402.693L339.97 322.96L464 226.492ZM256 51.662L454.429 193.4L311.434 304.615L256 268.979l-55.434 35.636L57.571 193.4ZM48 226.492l124.03 96.468L48 402.693ZM464 464H48v-23.265l208-133.714l208 133.714Z" />
+                                </svg>
+                            </span>
+                        </div>
+                        <div class="sun_icon" id="mode_btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                                <g fill="none" stroke="#70797f" stroke-linecap="round" stroke-width="1.9">
+                                    <path stroke-dasharray="34" stroke-dashoffset="34"
+                                        d="M12 7C14.76 7 17 9.24 17 12C17 14.76 14.76 17 12 17C9.24 17 7 14.76 7 12C7 9.24 9.24 7 12 7">
+                                        <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.4s"
+                                            values="34;0" />
+                                    </path>
+                                    <g stroke-dasharray="2" stroke-dashoffset="2">
+                                        <path d="M0 0">
+                                            <animate fill="freeze" attributeName="d" begin="0.5s" dur="0.2s"
+                                                values="M12 19v1M19 12h1M12 5v-1M5 12h-1;M12 21v1M21 12h1M12 3v-1M3 12h-1" />
+                                            <animate fill="freeze" attributeName="stroke-dashoffset" begin="0.5s"
+                                                dur="0.2s" values="2;0" />
+                                        </path>
+                                        <path d="M0 0">
+                                            <animate fill="freeze" attributeName="d" begin="0.7s" dur="0.2s"
+                                                values="M17 17l0.5 0.5M17 7l0.5 -0.5M7 7l-0.5 -0.5M7 17l-0.5 0.5;M18.5 18.5l0.5 0.5M18.5 5.5l0.5 -0.5M5.5 5.5l-0.5 -0.5M5.5 18.5l-0.5 0.5" />
+                                            <animate fill="freeze" attributeName="stroke-dashoffset" begin="0.7s"
+                                                dur="0.2s" values="2;0" />
+                                        </path>
+                                        <animateTransform attributeName="transform" dur="30s" repeatCount="indefinite"
+                                            type="rotate" values="0 12 12;360 12 12" />
+                                    </g>
+                                </g>
+                            </svg>
+                            <img src="" alt="">
+                        </div>
+
+                        <ul class="dropdown hidden">
+                            <li id="light_mode_btn"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
+                                    viewBox="0 0 24 24">
+                                    <g fill="none" stroke="#70797f" stroke-linecap="round" stroke-width="1.9">
+                                        <path stroke-dasharray="34" stroke-dashoffset="34"
+                                            d="M12 7C14.76 7 17 9.24 17 12C17 14.76 14.76 17 12 17C9.24 17 7 14.76 7 12C7 9.24 9.24 7 12 7">
+                                            <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.4s"
+                                                values="34;0" />
+                                        </path>
+                                        <g stroke-dasharray="2" stroke-dashoffset="2">
+                                            <path d="M0 0">
+                                                <animate fill="freeze" attributeName="d" begin="0.5s" dur="0.2s"
+                                                    values="M12 19v1M19 12h1M12 5v-1M5 12h-1;M12 21v1M21 12h1M12 3v-1M3 12h-1" />
+                                                <animate fill="freeze" attributeName="stroke-dashoffset" begin="0.5s"
+                                                    dur="0.2s" values="2;0" />
+                                            </path>
+                                            <path d="M0 0">
+                                                <animate fill="freeze" attributeName="d" begin="0.7s" dur="0.2s"
+                                                    values="M17 17l0.5 0.5M17 7l0.5 -0.5M7 7l-0.5 -0.5M7 17l-0.5 0.5;M18.5 18.5l0.5 0.5M18.5 5.5l0.5 -0.5M5.5 5.5l-0.5 -0.5M5.5 18.5l-0.5 0.5" />
+                                                <animate fill="freeze" attributeName="stroke-dashoffset" begin="0.7s"
+                                                    dur="0.2s" values="2;0" />
+                                            </path>
+                                            <animateTransform attributeName="transform" dur="30s"
+                                                repeatCount="indefinite" type="rotate" values="0 12 12;360 12 12" />
+                                        </g>
+                                    </g>
+                                </svg> Light</li>
+                            <li id="dark_mode_btn"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
+                                    viewBox="0 0 24 24">
+                                    <path fill="#2f3540"
+                                        d="M12.058 20q-3.333 0-5.667-2.334T4.058 12q0-2.47 1.413-4.535q1.414-2.067 4.01-2.973q.306-.107.536-.056t.381.199t.192.38q.04.233-.063.489q-.194.477-.282.966t-.087 1.03q0 2.667 1.866 4.533t4.534 1.867q.698 0 1.277-.148q.58-.148.988-.24q.218-.04.399.01t.289.176q.118.125.16.308q.04.183-.048.417q-.715 2.45-2.803 4.013T12.058 20m0-1q2.2 0 3.95-1.213t2.55-3.162q-.5.125-1 .2t-1 .075q-3.075 0-5.238-2.162T9.158 7.5q0-.5.075-1t.2-1q-1.95.8-3.163 2.55T5.058 12q0 2.9 2.05 4.95t4.95 2.05m-.25-6.75" />
+                                </svg> Dark</li>
+                            <li id="auto_mode_btn"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
+                                    viewBox="0 0 24 24">
+                                    <path fill="none" stroke="#2f3540" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="1.9"
+                                        d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0m9-9v18m0-12l4.65-4.65M12 14.3l7.37-7.37M12 19.6l8.85-8.85" />
+                                </svg> Auto</li>
+
+                        </ul>
+                        <div class="account_info">
+                            <img src="assets/images/sign.jpeg" alt="">
+                        </div>
+                        <ul class="account_dropdown seek">
+                            <li class="li_heading">Account</li>
+                            <li><img src="assets/icons/notif.svg" alt="">Updates<span class="msg_num msg1">42</span>
+                            </li>
+                            <li><img src="assets/icons/msg.svg" alt="">Messages<span class="msg_num msg2">42</span></li>
+                            <li><img src="assets/icons/task.svg" alt="">Tasks<span class="msg_num msg3">42</span></li>
+                            <li><img src="assets/icons/comments.svg" alt="">Comments<span class="msg_num msg4">42</span>
+                            </li>
+                            <li class="li_heading">Settings</li>
+                            <li><img src="assets/icons/profile.svg" alt="">Profile</li>
+                            <li><img src="assets/icons/settings.svg" alt="">Settings</li>
+                            <li><img src="assets/icons/pay.svg" alt="">Payments<span class="msg_num msg5">42</span></li>
+                            <li><img src="assets/icons/projects.svg" alt="">Projects<span class="msg_num msg6">42</span>
+                            </li>
+                            <li class="lock"><img src="assets/icons/lock.svg" alt="">Lock Account</li>
+                            <li><img src="assets/icons/log.svg" alt="">Logout</li>
+                        </ul>
+
+
+                    </div>
+
+                </div>
+                <div class="heading">
+                    <span class="home">Home</span>
+                    <span class="dash">/ Dashboard</span>
+                </div>
+
+            </header>
+            <div class="data_content_container black">
+                <div class="data_content">
+                    <div class="graph_container">
+                        <div class="users_data users">
+                            <div class="data">
+                                <div class="statical_data">26K <span class="percent"> ( -12.4% <img
+                                            src="assets/icons/dec.svg" alt=""> ) </span></div>
+                                <div class="icon">
+                                    <img src="assets/icons/menu_3.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="text">Users</div>
+                            <img class="curve" src="assets/images/purple.png" alt="">
+                        </div>
+
+                        <div class="users_data income">
+                            <div class="data">
+                                <div class="statical_data">$6.200 <span class="percent"> ( 40.9% <img
+                                            src="assets/icons/inc.svg" alt=""> ) </span></div>
+                                <div class="icon">
+                                    <img src="assets/icons/menu_3.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="text">Income</div>
+                            <img class="curve" src="assets/images/blue.png" alt="">
+
+                        </div>
+
+                        <div class="users_data conversion">
+                            <div class="data">
+                                <div class="statical_data">2.49% <span class="percent"> ( 84.7% <img
+                                            src="assets/icons/inc.svg" alt=""> ) </span></div>
+                                <div class="icon">
+                                    <img src="assets/icons/menu_3.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="text">Conversion Rate</div>
+                            <img class="curve" src="assets/images/yellow.png" alt="">
+
+                        </div>
+
+                        <div class="users_data sessions">
+                            <div class="data">
+                                <div class="statical_data">44K <span class="percent"> ( -23.6% <img
+                                            src="assets/icons/dec.svg" alt=""> ) </span></div>
+                                <div class="icon">
+                                    <img src="assets/icons/menu_3.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="text">Sessions</div>
+                            <img class="curve" src="assets/images/red.png" alt="">
+
+                        </div>
+
+                    </div>
+
+                    <div class="traffic_container light_black">
+                        <div class="traffic_heading">
+                            <div class="traffic_name">Traffic</div>
+                            <div class="traffic_right">
+                                <div class="days">
+                                    <li class="day">Day</li>
+                                    <li class="month">Month</li>
+                                    <li class="year">Year</li>
+                                </div>
+                                <span class="traffic_logo">
+                                    <img src="assets/icons/cloud.svg" alt="">
+                                </span>
+                            </div>
+                        </div>
+                        <div class="traffic_time">January - July 2023</div>
+                        <img class="tgraph" src="assets/images/graph.png" alt="">
+
+
+
+
+                    </div>
+                    <div class="tgraph_data_container lightest_black">
+                        <div class="tgraph_data">
+                            <div class="ttype">Visits</div>
+                            <div class="t_data">29.703 Users (<span class="cal_width">40%</span>)</div>
+                            <div class="progress">
+                                <div class="progress_bar"></div>
+                                <div class="pbar"></div>
+                            </div>
+                        </div>
+                        <div class="tgraph_data">
+                            <div class="ttype">Unique</div>
+                            <div class="t_data">29.703 Users (<span class="cal_width">20%</span>)</div>
+                            <div class="progress">
+                                <div class="progress_bar un_bar"></div>
+                                <div class="pbar"></div>
+                            </div>
+                        </div>
+                        <div class="tgraph_data">
+                            <div class="ttype">Pageviews</div>
+                            <div class="t_data">78.706 (<span class="cal_width">60%</span>)</div>
+                            <div class="progress">
+                                <div class="progress_bar pa_bar"></div>
+                                <div class="pbar"></div>
+                            </div>
+                        </div>
+                        <div class="tgraph_data">
+                            <div class="ttype">New Users</div>
+                            <div class="t_data">22.123 Users (<span class="cal_width">80%</span>)</div>
+                            <div class="progress">
+                                <div class="progress_bar ne_bar"></div>
+                                <div class="pbar"></div>
+                            </div>
+                        </div>
+                        <div class="tgraph_data bounce_data">
+                            <div class="ttype">Bounce Rate</div>
+                            <div class="t_data">Average Rate (<span class="cal_width">40.15%</span>)</div>
+                            <div class="progress">
+                                <div class="progress_bar bo_bar"></div>
+                                <div class="pbar"></div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="social">
+                        <div class="social_item light_black">
+                            <div class="img_contain fb_img"><img class="imgs" src="assets/images/fb.png" alt="">
+                            </div>
+                            <div class="social_info">
+                                <div class="followers">
+                                    <div class="follow cap">89K</div>
+                                    <div class="follow_type">FRIENDS</div>
+                                </div>
+                                <div class="separator"></div>
+                                <div class="posts">
+                                    <div class="post_num cap">459</div>
+                                    <div class="post_type">FEEDS</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="social_item">
+                            <div class="img_contain twitter_img"><img class="imgs" src="assets/images/twitter.png"
+                                    alt="">
+                            </div>
+                            <div class="social_info">
+                                <div class="followers">
+                                    <div class="follow cap">973K</div>
+                                    <div class="follow_type">FOLLOWERS</div>
+                                </div>
+                                <div class="separator"></div>
+                                <div class="posts">
+                                    <div class="post_num cap">1.792</div>
+                                    <div class="post_type">TWEETS</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="social_item">
+                            <div class="img_contain linked_img"><img class="imgs" src="assets/images/linked_in.png"
+                                    alt="">
+                            </div>
+                            <div class="social_info">
+                                <div class="followers">
+                                    <div class="follow cap">500</div>
+                                    <div class="follow_type">CONTACTS</div>
+                                </div>
+                                <div class="separator"></div>
+                                <div class="posts">
+                                    <div class="post_num cap">1.292</div>
+                                    <div class="post_type">FEEDS</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="social_item">
+                            <div class="img_contain calendar_img"><img class="imgs" src="assets/images/calendar.png"
+                                    alt="">
+                            </div>
+                            <div class="social_info">
+                                <div class="followers">
+                                    <div class="follow cap">12+</div>
+                                    <div class="follow_type">EVENTS</div>
+                                </div>
+                                <div class="separator"></div>
+                                <div class="posts">
+                                    <div class="post_num cap">4</div>
+                                    <div class="post_type">MEETINGS</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sales_container">
+                        <div class="s_title lightest_black">Traffic & Sales</div>
+                        <div class="s_card_container light_black">
+                            <div class="sales_card">
+                                <div class="stick"></div>
+                                <div class="s_content">
+                                    <div class="s_type">New Clients</div>
+                                    <div class="s_num">9,123</div>
+                                </div>
+                            </div>
+                            <div class="sales_card">
+                                <div class="stick r_stick"></div>
+                                <div class="s_content">
+                                    <div class="s_type">Recurring Clients</div>
+                                    <div class="s_num">22,643</div>
+                                </div>
+                            </div>
+                            <div class="sales_card">
+                                <div class="stick y_Stick"></div>
+                                <div class="s_content">
+                                    <div class="s_type">Pageviews</div>
+                                    <div class="s_num">78,623</div>
+                                </div>
+                            </div>
+                            <div class="sales_card">
+                                <div class="stick g_stick"></div>
+                                <div class="s_content">
+                                    <div class="s_type">Organic</div>
+                                    <div class="s_num">49,123</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="all_container light_black">
+                            <div class="week_data">
+                                <div class="each_day">
+                                    <div class="week_day">Monday</div>
+                                    <div class="w_graph">
+                                        <div class="progress">
+                                            <div class="progress_bar bclient bmon_bar"></div>
+                                            <div class="pbar"></div>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress_bar rclient  rmon_bar"></div>
+                                            <div class="pbar"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="each_day">
+                                    <div class="week_day">Tuesday</div>
+                                    <div class="w_graph">
+                                        <div class=" progress">
+                                            <div class="progress_bar bclient btue_bar"></div>
+                                            <div class="pbar"></div>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress_bar rclient rtue_bar"></div>
+                                            <div class="pbar"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="each_day">
+                                    <div class="week_day">Wednesday</div>
+                                    <div class="w_graph">
+                                        <div class="progress">
+                                            <div class="progress_bar bclient bwed_bar"></div>
+                                            <div class="pbar"></div>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress_bar rclient  rwed_bar"></div>
+                                            <div class="pbar"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="each_day">
+                                    <div class="week_day">Thursday</div>
+                                    <div class="w_graph">
+                                        <div class="progress">
+                                            <div class="progress_bar bclient bthur_bar"></div>
+                                            <div class="pbar"></div>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress_bar rclient  rthur_bar"></div>
+                                            <div class="pbar"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="each_day">
+                                    <div class="week_day">Friday</div>
+                                    <div class="w_graph">
+                                        <div class="progress">
+                                            <div class="progress_bar bclient bfri_bar"></div>
+                                            <div class="pbar"></div>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress_bar rclient  rfri_bar"></div>
+                                            <div class="pbar"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="each_day">
+                                    <div class="week_day">Saturday</div>
+                                    <div class="w_graph">
+                                        <div class="progress">
+                                            <div class="progress_bar bclient bsat_bar"></div>
+                                            <div class="pbar"></div>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress_bar rclient  rsat_bar"></div>
+                                            <div class="pbar"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="each_day">
+                                    <div class="week_day">Sunday</div>
+                                    <div class="w_graph">
+                                        <div class="progress">
+                                            <div class="progress_bar bclient bsun_bar"></div>
+                                            <div class="pbar"></div>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress_bar rclient  rsun_bar"></div>
+                                            <div class="pbar"></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="gender_container">
+                                <div class="each_gen">
+                                    <div class="type_content">
+                                        <div class="gen_info">
+                                            <img src="assets/icons/male.svg" alt=""> Male
+                                        </div>
+                                        <div class="gen_percent">53%</div>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress_bar gen_progress male_progress"></div>
+                                        <div class="pbar"></div>
+                                    </div>
+                                </div>
+                                <div class="each_gen">
+                                    <div class="type_content">
+                                        <div class="gen_info">
+                                            <img src="assets/icons/female.svg" alt=""> Female
+                                        </div>
+                                        <div class="gen_percent">43%</div>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress_bar gen_progress female_progress"></div>
+                                        <div class="pbar"></div>
+                                    </div>
+                                </div>
+                                <div class="blank"></div>
+                                <div class="each_gen">
+                                    <div class="type_content">
+                                        <div class="gen_info">
+                                            <img src="assets/icons/google.svg" alt=""> Organic Search
+                                        </div>
+                                        <div class="gen_percent">191,235<span class="gend_percent">(56%)</span>
+                                        </div>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress_bar" style="width: 56%;"></div>
+                                        <div class="pbar"></div>
+                                    </div>
+                                </div>
+                                <div class="each_gen">
+                                    <div class="type_content">
+                                        <div class="gen_info">
+                                            <img src="assets/icons/face.svg" alt=""> Facebook
+                                        </div>
+                                        <div class="gen_percent">51,223<span class="gend_percent">(15%)</span></div>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress_bar" style="width: 15%;"></div>
+                                        <div class="pbar"></div>
+                                    </div>
+                                </div>
+                                <div class="each_gen">
+                                    <div class="type_content">
+                                        <div class="gen_info">
+                                            <img src="assets/icons/tweet.svg" alt=""> Twitter
+                                        </div>
+                                        <div class="gen_percent">37,564<span class="gend_percent">(11%)</span></div>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress_bar" style="width: 11%;"></div>
+                                        <div class="pbar"></div>
+                                    </div>
+                                </div>
+                                <div class="each_gen">
+                                    <div class="type_content">
+                                        <div class="gen_info">
+                                            <img src="assets/icons/link.svg" alt=""> LinkedIn
+                                        </div>
+                                        <div class="gen_percent">27,319<span class="gend_percent">(8%)</span></div>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress_bar" style="width: 8%;"></div>
+                                        <div class="pbar"></div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+
+                        </div>
+                        <div class="table_container light_black">
+                            <table class="active_table">
+                                <tr>
+                                    <th><img src="assets/icons/person.svg" alt=""></th>
+                                    <th class="tuser">User</th>
+                                    <th>Country</th>
+                                    <th class="usage">Usage</th>
+                                    <th>Payment Method</th>
+                                    <th class="tactivity">Activity</th>
+                                </tr>
+                                <tr>
+                                    <td><img src="assets/images/per1.jpeg" alt=""></td>
+                                    <td class="user_table">
+                                        <div class="user_name">Yiogos Avraamu</div>
+                                        <div class="date">New | Jan 1, 2023</div>
+                                    </td>
+                                    <td><img src="assets/icons/u1.svg" alt=""></td>
+                                    <td>
+                                        <div class="type_content">
+                                            <div class="table_percent">
+                                                50%
+                                            </div>
+                                            <div class="table_time">Jun 11, 2023 - Jul 10, 2023</div>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress_bar" style="width: 50%;"></div>
+                                            <div class="pbar"></div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <img class="pay" src="assets/icons/p1.svg" alt="">
+                                    </td>
+                                    <td class="activity_col">
+                                        <div>Last login</div>
+                                        <div class="activity">10 sec ago</div>
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><img src="assets/images/asset 2.jpeg" alt=""></td>
+                                    <td class="user_table">
+                                        <div class="user_name">Avram Tarasios</div>
+                                        <div class="date">New | Jan 1, 2023</div>
+                                    </td>
+                                    <td><img src="assets/icons/u2.svg" alt=""></td>
+
+                                    <td>
+                                        <div class="type_content">
+                                            <div class="table_percent">
+                                                22%
+                                            </div>
+                                            <div class="table_time">Jun 11, 2023 - Jul 10, 2023</div>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress_bar b_bar" style="width: 22%;"></div>
+                                            <div class="pbar"></div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <img class="pay" src="assets/icons/p2.svg" alt="">
+                                    </td>
+                                    <td class="activity_col">
+                                        <div>Last login</div>
+                                        <div class="activity">5 minutes ago</div>
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><img src="assets/images/asset 3.jpeg" alt=""></td>
+                                    <td class="user_table">
+                                        <div class="user_name">Quintin Ed</div>
+                                        <div class="date">New | Jan 1, 2023</div>
+                                    </td>
+                                    <td><img src="assets/icons/u3.svg" alt=""></td>
+                                    <td>
+                                        <div class="type_content">
+                                            <div class="table_percent">
+                                                74%
+                                            </div>
+                                            <div class="table_time">Jun 11, 2023 - Jul 10, 2023</div>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress_bar y_bar" style="width: 74%;"></div>
+                                            <div class="pbar"></div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <img class="pay" src="assets/icons/p3.svg" alt="">
+                                    </td>
+                                    <td class="activity_col">
+                                        <div>Last login</div>
+                                        <div class="activity">1 hour ago</div>
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><img src="assets/images/asset 4.jpeg" alt=""></td>
+                                    <td class="user_table">
+                                        <div class="user_name">Eneas Kwadwo</div>
+                                        <div class="date">New | Jan 1, 2023</div>
+                                    </td>
+                                    <td><img src="assets/icons/u4.svg" alt=""></td>
+                                    <td>
+                                        <div class="type_content">
+                                            <div class="table_percent">
+                                                98%
+                                            </div>
+                                            <div class="table_time">Jun 11, 2023 - Jul 10, 2023</div>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress_bar r_bar" style="width: 98%;"></div>
+                                            <div class="pbar"></div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <img class="pay" src="assets/icons/p4.svg" alt="">
+                                    </td>
+                                    <td class="activity_col">
+                                        <div>Last login</div>
+                                        <div class="activity">Last month</div>
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><img src="assets/images/asset 5.jpeg" alt=""></td>
+                                    <td class="user_table">
+                                        <div class="user_name">Agapetus Tadeas</div>
+                                        <div class="date">New | Jan 1, 2023</div>
+                                    </td>
+                                    <td><img src="assets/icons/u5.svg" alt=""></td>
+                                    <td>
+                                        <div class="type_content">
+                                            <div class="table_percent">
+                                                22%
+                                            </div>
+                                            <div class="table_time">Jun 11, 2023 - Jul 10, 2023</div>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress_bar p_bar" style="width: 22%;"></div>
+                                            <div class="pbar"></div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <img class="pay" src="assets/icons/p5.svg" alt="">
+                                    </td>
+                                    <td class="activity_col">
+                                        <div>Last login</div>
+                                        <div class="activity">Last week</div>
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><img src="assets/images/asset 6.jpeg" alt=""></td>
+                                    <td class="user_table">
+                                        <div class="user_name">Friderik David</div>
+                                        <div class="date">New | Jan 1, 2023</div>
+                                    </td>
+                                    <td><img src="assets/icons/u6.svg" alt=""></td>
+                                    <td>
+                                        <div class="type_content">
+                                            <div class="table_percent">
+                                                43%
+                                            </div>
+                                            <div class="table_time">Jun 11, 2023 - Jul 10, 2023</div>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress_bar" style="width: 43%;"></div>
+                                            <div class="pbar"></div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <img class="pay" src="assets/icons/p6.svg" alt="">
+                                    </td>
+                                    <td class="activity_col">
+                                        <div>Last login</div>
+                                        <div class="activity">Last week</div>
+
+                                    </td>
+                                </tr>
+
+                            </table>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+
+            </div>
+
+            <div class="color_content_container">
+                <div class="color_container">
+                    <div class="color_heading">
+                        <img src="assets/icons/colors.svg" alt="">
+                        <span>Theme colors</span>
+                    </div>
+                    <div class="diff_colors">
+                        <div class="each_color_container">
+                            <div class="each_color" style="background-color: #5856d6;"></div>
+                            <div class="color_name">Brand Primary Color</div>
+                        </div>
+                        <div class="each_color_container">
+                            <div class="each_color" style="background-color: #6b7785;"></div>
+                            <div class="color_name">Brand Secondary Color</div>
+                        </div>
+                        <div class="each_color_container">
+                            <div class="each_color" style="background-color: #1b9e3e;"></div>
+                            <div class="color_name">Brand Success Color</div>
+                        </div>
+                        <div class="each_color_container">
+                            <div class="each_color" style="background-color: #e55353;"></div>
+                            <div class="color_name">Brand Danger Color</div>
+                        </div>
+                        <div class="each_color_container">
+                            <div class="each_color" style="background-color: #f9b115;"></div>
+                            <div class="color_name">Brand Warning Color</div>
+                        </div>
+                        <div class="each_color_container">
+                            <div class="each_color" style="background-color: #3399ff;"></div>
+                            <div class="color_name">Brand Info Color</div>
+                        </div>
+                        <div class="each_color_container">
+                            <div class="each_color" style="background-color: #f3f4f7;"></div>
+                            <div class="color_name">Brand Light Color</div>
+                        </div>
+                        <div class="each_color_container">
+                            <div class="each_color" style="background-color: #212631;"></div>
+                            <div class="color_name">Brand Dark Color</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="typography_content_container">
+                <div class="heading_container">
+                    <div class="heading_header">Headings</div>
+                    <div class="heading_contents">
+                        <p>Documentation and examples for Bootstrap typography, including global settings, headings,
+                            body text, lists, and more.</p>
+                        <table class="heading_table">
+                            <tr>
+                                <th>Heading</th>
+                                <th>Example</th>
+                            </tr>
+                            <tr>
+                                <td>
+                                    &lt;h1&gt;&lt;/h1&gt;
+                                </td>
+                                <td>
+                                    <h1>h1.Bootstrap heading</h1>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    &lt;h2&gt;&lt;/h2&gt;
+                                </td>
+                                <td>
+                                    <h2>h2.Bootstrap heading</h2>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    &lt;h3&gt;&lt;/h3&gt;
+                                </td>
+                                <td>
+                                    <h3>h3.Bootstrap heading</h3>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    &lt;h4&gt;&lt;/h4&gt;
+                                </td>
+                                <td>
+                                    <h4>h4.Bootstrap heading</h4>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    &lt;h5&gt;&lt;/h5&gt;
+                                </td>
+                                <td>
+                                    <h5>h5.Bootstrap heading</h5>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    &lt;h6&gt;&lt;/h6&gt;
+                                </td>
+                                <td>
+                                    <h6>h6.Bootstrap heading</h6>
+                                </td>
+                            </tr>
+
+                        </table>
+                    </div>
+                </div>
+
+                <div class="heading_availability_container">
+                    <div class="availability_heading">Headings</div>
+                    <div class="availablity_contents">
+                        <p><span>.h1</span> through <span>.h6</span> classes are also available, for when you want to
+                            match the font styling of a
+                            heading but cannot use the associated HTML element</p>
+                        <div>
+                            <h1>h1.Bootstrap heading</h1>
+                        </div>
+                        <div>
+                            <h2>h2.Bootstrap heading</h2>
+                        </div>
+                        <div>
+                            <h3>h3.Bootstrap heading</h3>
+                        </div>
+                        <div>
+                            <h4>h4.Bootstrap heading</h4>
+                        </div>
+                        <div>
+                            <h5>h5.Bootstrap heading</h5>
+                        </div>
+                        <div>
+                            <h6>h6.Bootstrap heading</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="display_content_container">
+                    <div class="display_heading">Display headings</div>
+                    <div class="display_contents">
+                        <p>Traditional heading elements are designed to work best in the meat of your page content. When
+                            you need a heading to stand out, consider using a <b>display heading</b>—a larger, slightly
+                            more opinionated heading style.</p>
+
+                        <table class="display_table">
+                            <tr>
+                                <td class="d1">Display 1</td>
+                            </tr>
+                            <tr>
+                                <td class="d2">Display 2</td>
+                            </tr>
+                            <tr>
+                                <td class="d3">Display 3</td>
+                            </tr>
+                            <tr>
+                                <td class="d4">Display 4</td>
+
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="inline_container">
+                    <div class="display_heading">Inline text elements</div>
+                    <div class="inline_contents">
+                        <p>Traditional heading elements are designed to work best in the meat of your page content. When
+                            you need a heading to stand out, consider using a display heading—a larger, slightly more
+                            opinionated heading style.</p>
+                        <p>You can use the mark tag to <mark> highlight </mark>text.</p>
+                        <p><del>This line of text is meant to be treated as deleted text.</del> </p>
+                        <p> <s>This line of text is meant to be treated as no longer accurate.</s> </p>
+                        <p> <ins> This line of text is meant to be treated as an addition to the document.</ins></p>
+                        <p><u> This line of text will render as underlined</u></p>
+                        <p> <small> This line of text is meant to be treated as fine print.</small> </p>
+                        <p> <b>This line rendered as bold text.</b></p>
+                        <p><i>This line rendered as italicized text.</i></p>
+                    </div>
+
+                </div>
+
+                <div class="display_content_container">
+                    <div class="display_heading">Description list alignment</div>
+                    <div class="availablity_contents">
+                        <p>Align terms and descriptions horizontally by using our grid system’s predefined classes (or
+                            semantic mixins). For longer terms, you can optionally add a <span>.text-truncate</span>
+                            class to truncate the text with an ellipsis..</p>
+                        <table class="des_table">
+                            <tr>
+                                <th>Description lists</th>
+                                <td>
+                                    A description list is perfect for defining terms.</td>
+                            </tr>
+                            <tr>
+                                <th>Euismod</th>
+                                <td>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.</td>
+                            </tr>
+                            <tr>
+                                <th>Malesuada porta</th>
+                                <td>Donec id elit non mi porta gravida at eget metus.</td>
+                            </tr>
+                            <tr>
+                                <th>Truncated term is truncate...</th>
+                                <td>
+                                    Etiam porta sem malesuada magna mollis euismod.</td>
+                            </tr>
+                            <tr>
+                                <th>Nesting</th>
+                                <td>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut
+                                    fermentum massa justo sit amet risus.</td>
+                            </tr>
+                            <tr>
+                                <th>Nested definition list</th>
+                                <td>Aenean posuere, tortor sed cursus feugiat, nunc augue nunc.</td>
+                            </tr>
+
+                        </table>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <footer>
+                <div class="left_footer">
+
+                    <div>
+                        <a href="#">CoreUI</a> &copy 2024 creativeLabs.
+                    </div>
+                </div>
+                <div class="right_footer">
+                    <div>Powered by <a href="#">CoreUI for Vue</a> </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>

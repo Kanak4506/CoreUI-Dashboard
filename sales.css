@@ -1,0 +1,325 @@
+.all_container {
+    display: flex;
+}
+
+.week_data {
+    width: 50%;
+    border-top: 1px solid #cbcccf;
+    padding-top: 25px;
+    margin: 16px;
+}
+
+.sales_container {
+    background-color: #fff;
+    margin: 30px 0px;
+    border: 1px solid #d3d4d4;
+    border-radius: 7px;
+}
+
+.s_title {
+    background-color: #f8f8f9;
+    font-size: 16px;
+    padding: 7px;
+    color: black;
+    border: 1.5px solid #cdcecf;
+}
+
+.sales_card {
+    display: flex;
+    width: 250px;
+    padding: 5px;
+}
+
+.s_num {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.s_type {
+    font-size: 13px;
+    color: #6a6e76;
+}
+
+.stick {
+    height: 65px;
+    width: 4px;
+    border-radius: 3px;
+    background-color: #3399ff;
+}
+
+.s_card_container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.s_content {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.r_stick {
+    background-color: #e55353;
+}
+
+.y_stick {
+    background-color: #f9b115;
+}
+
+.g_stick {
+    background-color: #1b9e3e;
+}
+
+.each_day {
+    display: flex;
+    padding: 10px;
+}
+
+.week_day {
+    color: #6a6e76;
+    font-size: 14px;
+    width: 200px;
+}
+
+.w_graph {
+    width: 100%;
+}
+
+.bclient {
+    background-color: #3399ff;
+}
+
+.rclient {
+    background-color: #e55353;
+}
+
+.bmon_bar {
+    width: 35%;
+}
+
+.rmon_bar {
+    width: 80%;
+}
+
+.btue_bar {
+    width: 60%;
+}
+
+.rtue_bar {
+    width: 95%;
+}
+
+.bwed_bar {
+    width: 15%;
+}
+
+.rwed_bar {
+    width: 65%;
+}
+
+.bthur_bar {
+    width: 45%;
+}
+
+.rthur_bar {
+    width: 90%;
+}
+
+.bfri_bar {
+    width: 20%;
+}
+
+.rfri_bar {
+    width: 83%;
+}
+
+.bsat_bar {
+    width: 65%;
+}
+
+.rsat_bar {
+    width: 70%;
+}
+
+.bsun_bar {
+    width: 10%;
+}
+
+.rsun_bar {
+    width: 60%;
+}
+
+.gender_container {
+    width: 50%;
+    /* padding: 10px; */
+    border-top: 1px solid #cbcccf;
+    margin: 16px;
+    padding-top: 25px;
+}
+
+.type_content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gen_info {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gen_info img {
+    margin: 0px 5px;
+}
+
+.each_gen {
+    padding: 5px;
+}
+
+.gen_percent {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.gen_progress {
+    background-color: #f9b115;
+}
+
+.male_progress {
+    width: 53%;
+}
+
+.female_progress {
+    width: 43%;
+}
+
+.blank {
+    height: 28px;
+}
+
+.gend_percent {
+    font-size: 14px;
+    padding: 2px;
+    color: #6a6e76;
+}
+
+.table_container {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.active_table tr th {
+    font-weight: 600;
+}
+
+
+.active_table tr td:first-child img {
+    height: 40px;
+    border-radius: 50%;
+}
+
+.active_table tr th {
+    background-color: #e7eaee;
+    font-family: "Mukta", sans-serif;
+    font-weight: 800;
+    font-size: 17px;
+}
+
+.active_table th,
+.active_table td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.tuser,
+.usage,
+.tactivity {
+    text-align: left;
+}
+
+.active_table {
+    border-collapse: collapse;
+    width: 95%;
+    padding: 0px 3px;
+    border: 1px solid #ddd;
+}
+
+.date {
+    color: #646870;
+    font-size: 14px;
+}
+
+
+.active_table tr td:nth-child(3) img,
+.pay {
+    height: 30px;
+    width: 30px;
+    /* margin: 0px 20px; */
+
+}
+
+.table_percent {
+    font-family: "Mukta", sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.usage {
+    width: 350px;
+
+}
+
+.active_table tr {
+    font-size: 15px;
+}
+
+.activity {
+    font-family: "Mukta", sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.user_name {
+    font-weight: 500;
+}
+
+.b_bar {
+    background-color: #3399ff;
+}
+
+.y_bar {
+    background-color: #f9b115;
+}
+
+.r_bar {
+    background-color: #e55353;
+}
+
+.p_bar {
+    background-color: #5856d6;
+}
+
+.user_table,
+.activity_col {
+    text-align: left;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px;
+    border: 1px solid #dbdfe6;
+    font-family: "Raleway", sans-serif;
+    color: #2f3540;
+    font-size: 15px;
+    font-weight: 500;       
+}
+
+footer a {
+    color: #4645b2;
+}

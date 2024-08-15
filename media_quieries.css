@@ -1,0 +1,54 @@
+/* for 1200 se 1400px */
+@media screen and (max-width: 1400px) {
+    .data_content{
+        width: 95%;
+    }
+    .users_data{
+        width: 259px;
+        margin: 12px;
+    }
+    .tgraph_data{
+        width: 200px;
+    }
+    .social_item {
+        width: 267px;
+        margin: 8px;
+    }
+    .color_content_container {
+        margin-bottom: 163px;
+    }
+}
+/* 992 se 1200 tk */
+
+@media screen and (max-width:1200px) {
+    .bounce_data{
+        display: none;
+    }
+    .dashboard{
+        display: none;
+        position: fixed;
+    }
+    .content_container{
+        width: 100%;
+    }
+    .users_data {
+        width: 407px;
+        height: 180px;
+    }
+    .img_contain img {
+        height: 156px;
+    }
+    .social_item{
+        width: 402px;
+        height: 238px;
+    }
+    .tgraph{
+        height: 31vh;
+    }
+    header{
+        z-index: 0;
+    }
+    .exit, .logo{
+        width: 19%;
+    }
+}
